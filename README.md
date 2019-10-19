@@ -8,7 +8,7 @@ $ docker-compose up -d
 $ docker-compose exec db bash
 ```
 
-## Config files
+## config files
 
 ``` bash
 $ ls -1 /var/lib/postgresql/data/
