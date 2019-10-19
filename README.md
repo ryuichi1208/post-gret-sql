@@ -10,6 +10,7 @@ In particular, it is different to place important data, so we will use it only f
 # Start
 $ docker-compose up -d
 $ docker-compose exec db bash
+$ docker-compose logs -f [SERVICE_NAME]
 
 # Restart
 $ docker-compose down && docker-compose up -d
